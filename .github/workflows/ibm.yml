@@ -4,8 +4,7 @@ on:
   push:
     branches: [ master ]
   schedule:
-    - cron: ‘0 21 */1 ?’
-
+    - cron: 15 20 * * *
 jobs:
   ibm-cloud-restart:
     runs-on: ubuntu-latest
